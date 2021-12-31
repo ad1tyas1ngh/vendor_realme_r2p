@@ -6,14 +6,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/r2p
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/r2p/proprietary/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/CPCalibrationData.bin \
-    vendor/realme/r2p/proprietary/etc/camera/cp/FusionCalibrationParams.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/FusionCalibrationParams.bin \
-    vendor/realme/r2p/proprietary/etc/camera/cp/SystemParamsBokeh.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/SystemParamsBokeh.bin \
-    vendor/realme/r2p/proprietary/etc/camera/cp/SystemParamsFusion.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/SystemParamsFusion.bin \
-    vendor/realme/r2p/proprietary/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/faceTpl0.rgb32 \
-    vendor/realme/r2p/proprietary/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/faceTpl1.rgb32 \
-    vendor/realme/r2p/proprietary/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/gasryuv.model \
-    vendor/realme/r2p/proprietary/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/skinSeg.model \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/CPCalibrationData.bin \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/cp/FusionCalibrationParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/FusionCalibrationParams.bin \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/cp/SystemParamsBokeh.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsBokeh.bin \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/cp/SystemParamsFusion.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsFusion.bin \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl0.rgb32 \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
+    vendor/realme/r2p/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
     vendor/realme/r2p/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/realme/r2p/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/realme/r2p/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
